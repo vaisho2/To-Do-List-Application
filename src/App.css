@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1d7d7; 
+  justify-content: center;
+  align-items: center;
+  background-image: url("./images/bg7.jpeg");
+  background-size: cover;
+}
+
+.App {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 80px;
+  background-color: #a7e7f700;
+  border-radius: 15px;
+}
+
+.header {
+  color: rgb(223, 15, 15);
+  text-shadow: 5px 5px 4px #141816;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  font-size: 80px;
+  margin-bottom: 50px;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+input[type="text"] {
+  background-color: #242424a8;
+  padding: 10px;
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  margin-right: 10px;
+}
+
+input::placeholder {
+  color: #ffffff; 
+}
+
+
+button {
+  padding: 10px 15px;
+  background-color: #000055c7;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2fc78d;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 15px;
+  background-color: #f4f4f4;
+  border-radius: 15px;
+}
+
+.todo-item span {
+  width: 550px;
+  flex: 1;
+  padding: 5px;
+  color: black;
+}
+
+.todo-item button {
+  margin-left: 20px;
+  background-color: #33459b;
+}
+
+.todo-item button:hover {
+  background-color: #269cad;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
